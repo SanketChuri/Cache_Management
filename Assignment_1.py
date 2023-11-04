@@ -34,7 +34,7 @@ if user_input == "1":
   while True:
     val = int(input("Enter Number: "))
     requests.append(val)
-    if val != 0:
+    if val != 0: 
       fifo(val)
     else :
       print("Cache List",cache)
