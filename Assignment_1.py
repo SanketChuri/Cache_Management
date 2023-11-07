@@ -54,8 +54,8 @@ while True:
 
         lowestFrequencyKey = min(lowestFrequencyKeyList)
 
-        cacheIndex = cache.index(lowestFrequencyKey)
-        cache.pop(cacheIndex)
+        lowestFrequencyKeyIndex = cache.index(lowestFrequencyKey)
+        cache.pop(lowestFrequencyKeyIndex)
         frequency.pop(lowestFrequencyKey)
         cache.append(value)
         frequency[value] = 1
